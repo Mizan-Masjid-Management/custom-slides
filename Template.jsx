@@ -14,6 +14,7 @@ const Template = ({ masjid, slides }) => {
       justifyContent: 'center',
       border: '2px solid #550C18',
       borderRadius: '10px'
+      width: "100%"
     }}>
       <h2 style={{ color: '#550C18', borderBottom: '2px solid #550C18', paddingBottom: '10px' }}>
         Custom Component for {masjid?.name || 'Your Masjid'}
