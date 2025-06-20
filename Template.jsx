@@ -1,26 +1,6 @@
 import React from 'react';
 
-// Example of a custom component that can be loaded from a GitHub URL.
-// This component receives `masjid` and `slides` as props.
-
-interface Masjid {
-  id: string;
-  name: string;
-  // Add other masjid properties as needed
-}
-
-interface Slide {
-  id?: string;
-  type: string;
-  // Add other slide properties as needed
-}
-
-interface CustomComponentProps {
-  masjid: Masjid | null;
-  slides: Slide[];
-}
-
-const Template: React.FC<CustomComponentProps> = ({ masjid, slides }) => {
+const Template = ({ masjid, slides }) => {
   return (
     <div style={{
       padding: '20px',
@@ -39,7 +19,7 @@ const Template: React.FC<CustomComponentProps> = ({ masjid, slides }) => {
         Custom Component for {masjid?.name || 'Your Masjid'}
       </h2>
       <p style={{ marginTop: '15px' }}>This is an example of a dynamically loaded React component.</p>
-      
+
       <div style={{ marginTop: '20px', textAlign: 'left', width: '80%' }}>
         <h3 style={{ color: '#78001A' }}>Signage Details:</h3>
         <p><strong>Total Slides:</strong> {slides.length}</p>
@@ -58,4 +38,4 @@ const Template: React.FC<CustomComponentProps> = ({ masjid, slides }) => {
   );
 };
 
-export default Template; 
+export default Template;
