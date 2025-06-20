@@ -17,7 +17,7 @@ const Template = ({ masjid, slides }) => {
       width: "100%"
     }}>
       <h2 style={{ color: '#550C18', borderBottom: '2px solid #550C18', paddingBottom: '10px' }}>
-        Custom Component for {masjid?.name || 'Your Masjid'}
+        Custom Component 123 for {masjid?.name || 'Your Masjid'}
       </h2>
       <p style={{ marginTop: '15px' }}>This is an example of a dynamically loaded React component.</p>
 
