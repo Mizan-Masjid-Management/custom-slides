@@ -4,7 +4,7 @@ const Template = ({ masjid, slides }) => {
   return (
     <div style={{
       padding: '20px',
-      backgroundColor: '#f0f4f8',
+      backgroundColor: '#FFFFFF',
       color: '#333',
       fontFamily: 'Arial, sans-serif',
       height: '100%',
@@ -12,8 +12,6 @@ const Template = ({ masjid, slides }) => {
       flexDirection: 'column',
       alignItems: 'center',
       justifyContent: 'center',
-      border: '2px solid #550C18',
-      borderRadius: '10px',
       width: "100%"
     }}>
       <h2 style={{ color: '#550C18', borderBottom: '2px solid #550C18', paddingBottom: '10px' }}>
