@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Template = ({ masjid, slides }) => {
+function Template({ masjid, slides }) {
   return (
     <div style={{
       padding: '20px',
