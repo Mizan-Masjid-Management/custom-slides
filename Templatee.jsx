@@ -1,6 +1,7 @@
 import React from 'react';
 
-function Template({ masjid, slides }) {
+function Template({ masjid }) {
+  const slides = [];
   return (
     <div style={{
       padding: '20px',
